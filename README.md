@@ -1,8 +1,8 @@
 ## Integrantes
 
-Tere Carmona
-Pablo Quincha
-David Gili
+- Tere Carmona
+- Pablo Quincha
+- David Gili
 
 # MercadoLocal — Hito 3 Backend 
 
