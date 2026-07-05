@@ -29,3 +29,8 @@ Usuarios demo (contraseña bcrypt):
 
 `src/config/db.js` acepta tanto variables locales como `DATABASE_URL` y SSL.
 `CORS_ORIGINS` acepta varias URLs separadas por coma.
+
+Integrantes
+Tere Carmona
+Pablo Quincha
+David Gili
