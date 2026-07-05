@@ -7,9 +7,8 @@ bcrypt, CORS, middlewares y seis pruebas Supertest.
 
 1. Ejecuta `database/00_crear_base_datos.sql` en la base `postgres`.
 2. Conéctate a `mercadolocal_db` y ejecuta `database/schema.sql` y `database/seed.sql`.
-3. Copia `.env.example` a `.env` y coloca tu contraseña PostgreSQL.
-4. Ejecuta `npm install`, `npm run dev` y abre `http://localhost:3000/api/health`.
-5. Ejecuta `npm test` para comprobar los códigos de estado.
+3. Ejecuta `npm install`, `npm run dev` y abre `http://localhost:3000/api/health`.
+4. Ejecuta `npm test` para comprobar los códigos de estado.
 
 Usuarios demo (contraseña bcrypt):
 - `demo@mercadolocal.cl` / `12345678`
