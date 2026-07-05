@@ -1,4 +1,10 @@
-# MercadoLocal — Hito 3 Backend corregido
+## Integrantes
+
+Tere Carmona
+Pablo Quincha
+David Gili
+
+# MercadoLocal — Hito 3 Backend 
 
 API REST modular con Node.js, Express y PostgreSQL. Incluye `pg`, `pg-format`, JWT,
 bcrypt, CORS, middlewares y seis pruebas Supertest.
@@ -14,23 +20,7 @@ Usuarios demo (contraseña bcrypt):
 - `demo@mercadolocal.cl` / `12345678`
 - `vendedor@mercadolocal.cl` / `12345678`
 
-## Cumplimiento del Hito 3
-
-- Proyecto npm y dependencias.
-- API REST modular.
-- PostgreSQL mediante `pg` y ordenamiento seguro con `pg-format`.
-- Autenticación/autorización JWT.
-- CORS configurable.
-- Middleware JWT en perfil, direcciones, publicaciones, carrito y órdenes.
-- Seis escenarios Supertest sobre más de cuatro rutas.
-- Guía de Thunder Client.
-
 ## Preparación para producción
 
 `src/config/db.js` acepta tanto variables locales como `DATABASE_URL` y SSL.
 `CORS_ORIGINS` acepta varias URLs separadas por coma.
-
-Integrantes
-Tere Carmona
-Pablo Quincha
-David Gili
